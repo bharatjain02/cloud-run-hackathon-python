@@ -35,7 +35,7 @@ def move():
     
     # TODO add your implementation here to replace the random response
 
-    return moves[1]
+    return moves[1:3][random.randrange(len(moves[1:3]))]
     #return moves[random.randrange(len(moves))]
 
 if __name__ == "__main__":
